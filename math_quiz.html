@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: red;" class="body_background">
+        <center>
+            <h3 style="font-family: cursive;font-style: italic;font-weight: bolder;color: rgb(0, 0, 0);" id="name1">1: </h3><span id="player1_score"></span>
+            <br>
+            <h3 style="font-family: cursive;font-style: italic;font-weight: bolder;color: black;">2: </h3><span id="player2_score"></span>
+
+            <div id="question_div" style="border-top: 10px solid cornflowerblue;background: white;border-radius: 10px;padding: 10px;float: none;text-align: left;"></div>
+
+            <h3 style="font-family: cursive;font-style: italic;font-weight: bolder;color: rgb(0, 0, 0);">Number 1 </h3>
+            <br>
+            <input type="text" id="number1_input" placeholder="Number 1">
+            <br>
+            <h3 style="font-family: cursive;font-style: italic;font-weight: bolder;color: rgb(0, 0, 0);">Number 2 </h3>
+            <br>
+            <input type="text" id="number2_input" placeholder="Number 2">
+            <br>
+            <br>
+            <button onclick="askQuestion()" style="font-family: cursive;font-style: italic;font-weight: bolder;color: black;background:green;">Ask This Question</button>
+        </center>
+    </body>
